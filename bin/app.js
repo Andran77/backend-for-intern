@@ -7,7 +7,7 @@ const app = express()
 
 mongoose
   .connect(
-    'mongodb+srv://username:password@cluster<cluster-name>.mongodb.net/test?retryWrites=true&w=majority'
+    'mongodb+srv://gor:WWbXcGNeEelNpRCp@cluster0-v04ku.mongodb.net/test?retryWrites=true&w=majority'
   )
   .then(() => {
     console.log('Connected to database!')
